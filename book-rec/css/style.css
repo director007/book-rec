@@ -1,0 +1,293 @@
+html, body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  min-width: 900px;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+#banner {
+  background: #232f3e;
+  height: 55px;
+  background-size: 1920px;
+  min-width: 1000px;
+  display: block;
+}
+
+header {
+  background-color: #232f3e;
+  height: 99px;
+}
+
+.nav-left {
+  position: relative;
+  float: left;
+  width: auto;
+  display: inline-block;
+}
+
+.nav-right {
+  position: relative;
+  float: right;
+  width: auto;
+  display: inline-block;
+}
+
+.nav-fill {
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#nav-logo {
+  padding: 11px 18px 0 24px;
+  position: relative;
+  width: 192px;
+}
+
+#nav-logo .nav-logo-link {
+  background: transparent no-repeat top left;
+  background-size: 102px;
+  width: 192px;
+  height: 32px;
+  display: block;
+}
+
+#nav-logo .nav-logo-tagline {
+  color: #48a3c6;
+  position: absolute;
+  top: 31px;
+  left: 93px;
+  font-size: 11px;
+  line-height: 11px;
+  font-family: arial, sans-serif;
+  font-weight: 700;
+}
+
+#nav-logo .nav-logo-tagline:hover {
+  color: #ffffff;
+}
+
+#nav-holiday {
+  top: 9px;
+  position: relative;
+  
+  width: 400px;
+  height: 39px;
+}
+
+#nav-holiday a {
+  display: block;
+  height: 100%;
+}
+
+#nav-search {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding-top: 11px;
+  padding-right: 25px;
+}
+
+#nav-search input {
+  width: 100%;
+}
+
+#nav-search .nav-left {
+  height: 35px;
+  background-color: #f3f3f3;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #cdcdcd;
+  overflow: hidden;
+}
+
+#nav-search .nav-left:hover {
+  background-color: #dadada;
+  border-left-color: #dadada;
+  border-top-color: #dadada;
+  border-bottom-color: #dadada;
+}
+
+#nav-search .nav-search-label {
+  color: #777;
+  display: block;
+  font-size: 12px;
+  line-height: 33px;;
+  margin-right: 21px;
+  margin-left: 10px;
+}
+
+#nav-search .nav-left i {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  color: #a0a0a0;
+  font-size: 11px;
+}
+
+#nav-search select {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  height: 35px;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+#nav-search .nav-fill {
+  height: 35px;
+  overflow: hidden;
+}
+
+#nav-search .nav-fill input {
+  border: none;
+  height: 35px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #111;
+  outline: none;
+}
+
+#nav-search .nav-right {
+  background-color: #726c64;
+  width: 45px;
+  height: 35px;
+  border-radius: 0 4px 4px 0;
+}
+
+#nav-search .nav-right:hover {
+  background-color: #c0bdb9;
+}
+
+#nav-search .nav-right i {
+  position: absolute;
+  top: 5px;
+  right: 13px;
+  color: #333;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+#nav-search .nav-right input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-indent: -1000px;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 600px;
+  }
+}
+
+#promo .col-lg-12 {
+  padding: 0 22px 10px 22px;
+}
+
+#promo .carousel {
+  margin-top: -2px;
+}
+
+.col-lg-3 {
+  padding: 0 7px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+
+
+#book {
+  padding: 0 0 60px 0;
+}
+
+#book .col {
+  background: rgba(19,19,4,.04);
+  padding: 15px;
+  min-height: 578px;
+  position: relative;
+}
+
+#book h2 {
+  margin: 0;
+}
+
+#book img {
+  max-width: 100%;
+}
+
+#book .thumbnail {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  margin: 8px;
+  background: none;
+}
+
+#book .thumbnail:hover {
+  text-decoration: none;
+}
+
+#book .thumbnail .caption {
+  padding: 0;
+  margin: 12px 0 4px 0;
+  display: inline-block;
+  color: #111;
+  font-size: 13px;
+}
+
+
+
+footer
+    {
+        background-color :#000;
+        height:50px;
+        margin-top: 50px;
+        color:#fff;
+        padding-top:10px;
+    }
+    .fa-heart-o
+    {
+        color:red;
+    }
+    #nav-logo .nav-logo-link {
+      background: transparent url('../img/logos.png') no-repeat top left;
+      background-size: 80px;
+      width: 192px;
+      height: 80px;
+      display: block;
+      margin-left: 60px;
+      
+    }
+    #nav-book {
+      top: 9px;
+      position:relative;
+      background-image: url('../img/bookr.png');
+      width: 380px;
+      height: 39px;
+    }
+    #nav-book a {
+      display: block;
+      height: 100%;
+    }
+    
